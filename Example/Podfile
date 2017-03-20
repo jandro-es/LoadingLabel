@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LoadingLabel_Example' do
+  pod 'LoadingLabel', :path => '../'
+
+  target 'LoadingLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
