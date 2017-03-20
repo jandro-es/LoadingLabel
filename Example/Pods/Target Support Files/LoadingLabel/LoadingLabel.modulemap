@@ -1,0 +1,6 @@
+framework module LoadingLabel {
+  umbrella header "LoadingLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -20,14 +20,29 @@
 
 import UIKit
 
-@UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+open class LoadingLabel: UIView {
   
-  var window: UIWindow?
+  // MARK: - Initializers
   
-  func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-    // Override point for customization after application launch.
-    return true
+  override public init(frame: CGRect) {
+    super.init(frame: frame)
+    commonInit()
+  }
+  
+  required public init?(coder aDecoder: NSCoder) {
+    super.init(coder: aDecoder)
+    commonInit()
+  }
+  
+  open override func awakeFromNib() {
+    super.awakeFromNib()
+    commonInit()
+  }
+  
+  // MARK: - Private methods
+  
+  /// Sets up the different elements
+  private func commonInit() {
+    
   }
 }
-

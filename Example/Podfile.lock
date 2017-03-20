@@ -1,0 +1,16 @@
+PODS:
+  - LoadingLabel (0.1.0)
+
+DEPENDENCIES:
+  - LoadingLabel (from `../`)
+
+EXTERNAL SOURCES:
+  LoadingLabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LoadingLabel: 1103f9775e41be3b3cdfaf8ba743197b4d695da4
+
+PODFILE CHECKSUM: 02b64f34e4f7a144ebb1ab3d2b57bc00b1ca588f
+
+COCOAPODS: 1.2.0

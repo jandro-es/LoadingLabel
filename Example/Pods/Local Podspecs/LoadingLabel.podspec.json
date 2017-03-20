@@ -1,0 +1,22 @@
+{
+  "name": "LoadingLabel",
+  "version": "0.1.0",
+  "summary": "A short description of LoadingLabel.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jandro-es/LoadingLabel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jandro-es": "jandrob1978@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/jandro-es/LoadingLabel.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LoadingLabel/Classes/**/*"
+}
