@@ -23,5 +23,24 @@ import LoadingLabel
 
 class ViewController: UIViewController {
 
+  @IBOutlet weak var loadingLabel: LoadingLabel!
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    
+    loadingLabel.label.text = "Lorem ipsum"
+    loadingLabel.label.textColor = .black
+    
+    perform(#selector(stopAnimation), with: nil, afterDelay: 2.0)
+    perform(#selector(restartAnimation), with: nil, afterDelay: 4.0)
+  }
+  
+  @objc func stopAnimation() {
+    loadingLabel.stopAnimation(with: "Dolore et sumun")
+  }
+  
+  @objc func restartAnimation() {
+    loadingLabel.startAnimation()
+  }
 }
 
