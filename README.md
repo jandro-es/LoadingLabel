@@ -1,15 +1,14 @@
 # LoadingLabel
 
-[![CI Status](http://img.shields.io/travis/jandro-es/LoadingLabel.svg?style=flat)](https://travis-ci.org/jandro-es/LoadingLabel)
 [![Version](https://img.shields.io/cocoapods/v/LoadingLabel.svg?style=flat)](http://cocoapods.org/pods/LoadingLabel)
 [![License](https://img.shields.io/cocoapods/l/LoadingLabel.svg?style=flat)](http://cocoapods.org/pods/LoadingLabel)
 [![Platform](https://img.shields.io/cocoapods/p/LoadingLabel.svg?style=flat)](http://cocoapods.org/pods/LoadingLabel)
+[![Build Status](https://travis-ci.org/jandro-es/LoadingLabel.svg?branch=master)](https://travis-ci.org/jandro-es/LoadingLabel)
 
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
 
 ## Installation
 
@@ -22,7 +21,7 @@ pod "LoadingLabel"
 
 ## Author
 
-jandro-es, jandrob1978@gmail.com
+Filtercode Ltd. <jandro@filtercode.com>
 
 ## License
 
